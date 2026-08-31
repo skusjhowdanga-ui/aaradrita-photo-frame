@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Aaradrita Photo Frame & Gift House</title>
+<style>
+:root{--dark:#202020;--gold:#c9952e;--cream:#fff9f0;--muted:#666}
+*{box-sizing:border-box;margin:0;padding:0}
+html{scroll-behavior:smooth}
+body{font-family:Arial,"Noto Sans Bengali",sans-serif;color:var(--dark);background:#fff;line-height:1.5}
+header{height:72px;padding:0 7%;display:flex;align-items:center;justify-content:space-between;position:sticky;top:0;background:#fffffff2;backdrop-filter:blur(10px);z-index:100;border-bottom:1px solid #eee}
+.logo{font-size:22px;font-weight:800;line-height:1}.logo small{display:block;font-size:10px;letter-spacing:3px;color:var(--gold);margin-top:5px}
+nav{display:flex;gap:25px}nav a{text-decoration:none;color:#333;font-size:14px;font-weight:bold}
+.hero{min-height:570px;background:linear-gradient(110deg,#171717d9,#17171791),url('https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=1600&q=80') center/cover;display:flex;align-items:center;padding:70px 9%;color:white}
+.hero-box{max-width:700px}.tag{display:inline-block;background:var(--gold);padding:7px 14px;font-size:12px;letter-spacing:1px;margin-bottom:18px}
+h1{font-size:55px;line-height:1.12;margin-bottom:20px}.hero p{font-size:18px;color:#eee;max-width:600px}
+.btn{display:inline-block;background:var(--gold);color:white;text-decoration:none;padding:14px 25px;border-radius:4px;margin-top:25px;font-weight:bold;border:0;cursor:pointer}
+.btn:hover{filter:brightness(.9)}.btn-outline{background:transparent;border:1px solid white;margin-left:10px}
+section{padding:75px 8%}.section-title{text-align:center;margin-bottom:42px}.section-title h2{font-size:34px}.section-title p{color:var(--muted);margin-top:8px}
+.categories{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}
+.cat{height:220px;position:relative;border-radius:8px;overflow:hidden;background:#ddd}
+.cat img,.product img{width:100%;height:100%;object-fit:cover;display:block;transition:.4s}
+.cat:hover img,.product:hover img{transform:scale(1.06)}
+.cat span{position:absolute;bottom:0;left:0;right:0;padding:16px;color:white;font-weight:bold;background:linear-gradient(transparent,#000c)}
+.products{background:var(--cream)}
+.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:22px}
+.product{background:white;border-radius:8px;overflow:hidden;box-shadow:0 4px 18px #00000012}
+.product .photo{height:235px;overflow:hidden}.info{padding:16px}.info h3{font-size:17px}.price{color:var(--gold);font-size:18px;font-weight:bold;margin:8px 0}.smallbtn{display:block;text-align:center;background:#202020;color:#fff;text-decoration:none;padding:10px;border-radius:4px;font-size:14px}
+.about{display:grid;grid-template-columns:1fr 1fr;gap:55px;align-items:center}.about img{width:100%;height:380px;object-fit:cover;border-radius:8px}.about h2{font-size:35px;margin-bottom:18px}.about p{color:#555;margin-bottom:12px}
+.features{display:grid;grid-template-columns:repeat(4,1fr);gap:15px;text-align:center}.feature{padding:22px}.feature .icon{font-size:35px;margin-bottom:10px}
+.order{background:#242424;color:#fff}.order-wrap{display:grid;grid-template-columns:1fr 1fr;gap:40px;max-width:1000px;margin:auto}.order h2{font-size:34px;margin-bottom:15px}.order p{color:#ddd}
+form{background:#fff;padding:25px;border-radius:8px;color:#222}input,select,textarea{width:100%;padding:12px;margin-bottom:12px;border:1px solid #ddd;border-radius:4px;font:inherit}textarea{height:90px;resize:vertical}
+.contact{background:#fafafa;text-align:center}.contact-grid{display:flex;justify-content:center;gap:50px;flex-wrap:wrap;margin-top:25px}.contact-item b{display:block;font-size:18px}
+footer{background:#111;color:#aaa;text-align:center;padding:30px;font-size:14px}
+@media(max-width:900px){.categories,.product-grid{grid-template-columns:repeat(2,1fr)}h1{font-size:42px}.about,.order-wrap{grid-template-columns:1fr}.features{grid-template-columns:repeat(2,1fr)}}
+@media(max-width:600px){header{padding:0 5%}nav{display:none}.hero{padding:60px 7%;min-height:500px}h1{font-size:35px}section{padding:55px 6%}.categories,.product-grid{grid-template-columns:1fr}.features{grid-template-columns:1fr}.btn-outline{margin-left:0}.section-title h2{font-size:29px}}
+</style>
+</head>
+<body>
+<header>
+<div class="logo">AARADRITA<small>PHOTO FRAME & GIFT HOUSE</small></div>
+<nav><a href="#home">HOME</a><a href="#collection">COLLECTION</a><a href="#about">ABOUT</a><a href="#order">CUSTOM ORDER</a><a href="#contact">CONTACT</a></nav>
+</header>
+
+<section class="hero" id="home">
+<div class="hero-box">
+<span class="tag">MAKE MEMORIES LAST FOREVER</span>
+<h1>আপনার স্মৃতি,<br>আমাদের সুন্দর ফ্রেমে</h1>
+<p>Custom Photo Frame, Couple Gift, Family Frame এবং বিশেষ মুহূর্তের জন্য সুন্দর ও আকর্ষণীয় উপহার।</p>
+<a class="btn" href="#collection">Collection দেখুন</a>
+<a class="btn btn-outline" href="#order">Custom Order</a>
+</div>
+</section>
+
+<section>
+<div class="section-title"><h2>আমাদের জনপ্রিয় Collection</h2><p>সব উপলক্ষের জন্য বিশেষ কিছু</p></div>
+<div class="categories">
+<div class="cat"><img src="https://images.unsplash.com/photo-1522673607200-164d1b6ce486?auto=format&fit=crop&w=700&q=80"><span>Couple Frame</span></div>
+<div class="cat"><img src="https://images.unsplash.com/photo-1511895426328-dc8714191300?auto=format&fit=crop&w=700&q=80"><span>Family Frame</span></div>
+<div class="cat"><img src="https://images.unsplash.com/photo-1513201099705-a9746e1e201f?auto=format&fit=crop&w=700&q=80"><span>Birthday Gift</span></div>
+<div class="cat"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=700&q=80"><span>Special Gifts</span></div>
+</div>
+</section>
+
+<section class="products" id="collection">
+<div class="section-title"><h2>Featured Products</h2><p>আপনার পছন্দের ডিজাইন বেছে নিন</p></div>
+<div class="product-grid">
+<div class="product"><div class="photo"><img src="https://images.unsplash.com/photo-1513519245088-0e12902e5a38?auto=format&fit=crop&w=600&q=80"></div><div class="info"><h3>Classic Photo Frame</h3><div class="price">₹299 থেকে</div><a class="smallbtn" href="#order">Order করুন</a></div></div>
+<div class="product"><div class="photo"><img src="https://images.unsplash.com/photo-1516589178581-6cd7833ae3b2?auto=format&fit=crop&w=600&q=80"></div><div class="info"><h3>Couple Memory Frame</h3><div class="price">₹499 থেকে</div><a class="smallbtn" href="#order">Order করুন</a></div></div>
+<div class="product"><div class="photo"><img src="https://images.unsplash.com/photo-1494438639946-1ebd1d20bf85?auto=format&fit=crop&w=600&q=80"></div><div class="info"><h3>Wall Photo Frame</h3><div class="price">₹699 থেকে</div><a class="smallbtn" href="#order">Order করুন</a></div></div>
+<div class="product"><div class="photo"><img src="https://images.unsplash.com/photo-1549465220-1a8b9238cd48?auto=format&fit=crop&w=600&q=80"></div><div class="info"><h3>Personalized Gift</h3><div class="price">₹399 থেকে</div><a class="smallbtn" href="#order">Order করুন</a></div></div>
+</div>
+</section>
+
+<section class="about" id="about">
+<img src="https://images.unsplash.com/photo-1497215842964-222b430dc094?auto=format&fit=crop&w=900&q=80">
+<div><h2>প্রতিটি ফ্রেমে একটি গল্প</h2><p>Aaradrita Photo Frame & Gift House-এ আমরা আপনার প্রিয় মুহূর্তকে সুন্দরভাবে সাজিয়ে রাখার চেষ্টা করি।</p><p>Birthday, Anniversary, Wedding, Family কিংবা যেকোনো Special Occasion-এর জন্য Customized ডিজাইন পাওয়া যায়।</p><a class="btn" href="#order">নিজের ডিজাইন তৈরি করুন</a></div>
+</section>
+
+<section>
+<div class="features">
+<div class="feature"><div class="icon">🖼️</div><b>Premium Quality</b><p>উন্নত মানের প্রিন্ট ও ফ্রেম</p></div>
+<div class="feature"><div class="icon">🎨</div><b>Custom Design</b><p>নিজের পছন্দমতো ডিজাইন</p></div>
+<div class="feature"><div class="icon">💬</div><b>Easy Order</b><p>WhatsApp-এ সহজে অর্ডার</p></div>
+<div class="feature"><div class="icon">🎁</div><b>Perfect Gift</b><p>সব বিশেষ দিনের জন্য উপযুক্ত</p></div>
+</div>
+</section>
+
+<section class="order" id="order">
+<div class="order-wrap">
+<div><h2>Custom Frame Order করুন</h2><p>নিচের ফর্মটি পূরণ করুন। আপনার পছন্দের ছবি WhatsApp-এ পাঠিয়ে দিন। আমরা আপনার সঙ্গে যোগাযোগ করে Design ও Price নিশ্চিত করব।</p><p>📱 WhatsApp: +91 73650 13904</p></div>
+<form onsubmit="sendOrder(event)">
+<input id="name" placeholder="আপনার নাম" required>
+<input id="phone" placeholder="মোবাইল নম্বর" required>
+<select id="type"><option>Photo Frame</option><option>Couple Frame</option><option>Family Frame</option><option>Gift Item</option></select>
+<textarea id="details" placeholder="Size / Design সম্পর্কে লিখুন"></textarea>
+<button class="btn" type="submit">WhatsApp-এ Order পাঠান</button>
+</form>
+</div>
+</section>
+
+<section class="contact" id="contact">
+<div class="section-title"><h2>যোগাযোগ করুন</h2><p>আপনার প্রশ্ন বা অর্ডারের জন্য আমাদের সঙ্গে যোগাযোগ করুন</p></div>
+<div class="contact-grid">
+<div class="contact-item">📞<b>Phone / WhatsApp</b>+91 73650 13904</div>
+<div class="contact-item">🕒<b>Opening Hours</b>প্রতিদিন খোলা</div>
+<div class="contact-item">💬<b>Quick Order</b>WhatsApp-এ ছবি পাঠান</div>
+</div>
+</section>
+
+<footer>
+<b>AARADRITA PHOTO FRAME & GIFT HOUSE</b><br>
+© 2026 All Rights Reserved
+</footer>
+
+<script>
+function sendOrder(e){
+ e.preventDefault();
+ const n=document.getElementById('name').value;
+ const p=document.getElementById('phone').value;
+ const t=document.getElementById('type').value;
+ const d=document.getElementById('details').value;
+ const msg=`নতুন Custom Order%0Aনাম: ${n}%0Aমোবাইল: ${p}%0AProduct: ${t}%0ADetails: ${d}`;
+ window.open('https://wa.me/917365013904?text='+msg,'_blank');
+}
+</script>
+</body>
+</html>
